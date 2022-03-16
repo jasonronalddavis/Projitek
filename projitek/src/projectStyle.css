@@ -1,0 +1,215 @@
+
+
+.Bckgrnd {  
+    position:fixed; top:-10%; right:0%; z-index: -20;
+    width: 100%;
+}
+
+
+
+.pBox{
+position:fixed;  z-index: 90; top:210px;
+width:30vh;
+height:40vh;
+left: 40px;
+}
+
+
+.listProjects {
+    position:absolute; top: 40vh; left: 5vh; z-index: 110;
+    overflow-y: scroll; width: 100px; height: 130px;
+    overflow-x: hidden;
+    width: 150px;
+    height: 150px;
+}
+
+.selectProject:hover {
+    transform: scale(1.2);
+    color: rgb(233, 123, 76);
+
+}
+
+
+.projectsContainer  {    
+    position:fixed;  z-index: 40; 
+    font-family: "futura", Trebuchet MS, Arial, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 20.4px;
+    list-style-type: none;
+    color:rgb(0, 172, 199);    
+}
+
+
+.projectForm {    
+    position:fixed; left: -26px;  top: 40px; z-index: 100; 
+    overflow-y: scroll; width: 38.5vw; height: 20vw;
+    overflow-x: hidden;  
+}
+
+
+
+.editProjectForm{
+    position:absolute; right:20;  top:600px; z-index: 60;
+    overflow-y: scroll; width: 30.5vw; height: 20vw;
+    overflow-x: hidden; width: 35.0vw;
+}
+
+.EditProjectHeader{
+    font-family: "futura", Trebuchet MS, Arial, sans-serif; font-size: 30px; font-style: normal; font-variant: normal;  line-height: 20.4px;
+    position:absolute; right: -30vh;  top:530px; z-index: 60;
+            width: 200px;
+}
+
+
+.EditCheckBoxIng{
+    position:relative; right: 120px;  top: -10px; z-index: 60;
+    justify-content: space-evenly; width: 140px;
+
+}
+.editIngList{
+    position:relative; right: 5px;  top: 5%; z-index: 60; ;
+    overflow-x: hidden; width: 30.5vw; height: 20vw; top: -30;
+    overflow-y: scroll; width: 30.5vw; height: 20vw; top: -30;
+}
+
+
+.CheckBoxIng{
+    position:relative; right: 5px;  top: -20px; z-index: 60; 
+    overflow-x: hidden; width: 30.5vw; height: 20vw; top: -30;
+    overflow-y: scroll; width: 30.5vw; height: 20vw; top: -30;
+}
+
+.createIngHeader{
+    position:fixed; right: 20px;  top: -20px; z-index: 60;  
+}
+
+.CheckBoxI{
+    position:relative; right: 120px;  top: -10px; z-index: 60;  
+}
+
+.listCreateIng h4{
+    position:relative; right: 10px;  top: -10px; z-index: 60;
+height: 20px;
+}
+
+
+
+
+.listYourIngEdit{
+    position:relative; right: 5px;  top: -20px; z-index: 60; 
+    overflow-x: hidden; width: 20.5vw; height: 20vw; top: -30;
+    overflow-y: scroll; width: 20.5vw; height: 20vw; top: -30;
+}
+
+.editYourIngName h4{
+    position:relative; right: 10px;  top: -10px; z-index: 60;
+height: 20px;
+}
+.checkYourIng{
+    position:relative; right: 80px;  top: -35px; z-index: 60; 
+
+}
+
+
+
+.listYourCatEdit{
+    position:relative; right: -40px; top: 10px; 
+    overflow-x: hidden; width: 20.5vw; height: 20vw; top: -30;
+    overflow-y: scroll; width: 20.5vw; height: 10vw; top: -30;
+}
+
+.listYourCatEdit h4{
+    position:relative; right: 0px; top: -20px; 
+}
+
+.EditYourCatCheck{
+    position:relative; right: 80px;  top: -55px; z-index: 60;     
+}
+
+
+
+
+.createCatHeader{
+       position:relative; right: 10px;  top: 10px; z-index: 60;
+    height: 5px;    
+    font-size: 15px;
+}
+
+
+.CheckBoxCat{
+    position:relative; right: 70px;  top: 10px; z-index: 60;
+    height: 10px; 
+}
+
+.CreateCatName{
+    position:relative; right: 10px;  top: 30px; z-index: 60;
+    height: 5px;    
+}
+
+.listCreateCat{
+    position:relative; right: -30px; top: 10px;
+    overflow-x: hidden; width: 30.5vw; height: 20vw; top: -30;
+    overflow-y: scroll; width: 30.5vw; height: 20vw; top: -30;
+
+}
+
+
+
+
+.EditCIlist h3{
+    position:relative; right: -10px;  top: 0px; z-index: 60;
+    font-size: 13px;
+    height: 10px; 
+    justify-content: space-evenly; width: 140px; 
+    margin: 0px;
+}
+
+.ingredientForm {    
+    position:absolute; right: 0px;  top: 10%; z-index: 60;
+    overflow-y: scroll; width: 30.5vw; height: 20vw;
+    overflow-x: hidden;  
+
+}
+
+
+.viewProject{
+    position:fixed; left: 275px;  top: 240px; z-index:90;
+    overflow-y: scroll; width: 30.5vw; height: 35vw; 
+    overflow-x: hidden;  width: 300px;
+    color:rgb(7, 123, 186);    
+
+}
+
+
+.ViewProgIngImg{
+    position:relative; left: 5px;  top: 0px; z-index:90;
+    width: 80px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    padding: 0px;
+}
+
+.ViewProjIngList{
+    position:relative; left: -35px;  top: 0px; z-index:90;
+
+}
+
+.ViewProjIngName{
+    position:relative; right: 0px;  top: 0px; z-index: 60;
+    font-size: 13px;
+    color: rgb(233, 123, 76);
+
+}
+
+.ViewProjDesHeader{
+    position:relative; left: 0px;  top: -30px; z-index:90;  
+}
+
+.ViewProjDes{
+    position:relative; left: 0px;  top: -20px; z-index:90;  
+}
+
+.ViewProjectHeader{
+    position:fixed; left: 345px;  top: 170px; z-index: 100; 
+    color:rgb(7, 123, 186);    
+    font-size: 30px; 
+
+}

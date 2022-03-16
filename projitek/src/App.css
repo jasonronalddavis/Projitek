@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.Logo{
+  position:fixed; top: 25px;  left: 420px; z-index: 90 ;
+  width: 100px; 
+}
+
+
+
+
+
+
+.IngredientButton{
+  position:relative; top: 605px;  left: 110px; z-index: 90 ;
+  width: 100px; 
+}
+
+
+.IngredientButton:hover  {
+  transform: scale(1.2);
+}
+
+.ProjectButton{
+  position:relative; top: 610px;  left: 20px; z-index: 90 ;
+  width: 100px; 
+}
+
+
+.ProjectButton:hover  {
+  transform: scale(1.2);
+}
+
+.DeleteButton{
+  position:relative; top: 620px;  left: -85px; z-index: 90 ;
+  width: 100px; 
+  height:90px;
+}
+
+
+.DeleteButton:hover  {
+  transform: scale(1.2);
+}
+
+
+
+
+
+.DeleteContainer{
+  position:fixed; left: -40px;  top: 25px; z-index:105;
+  width: 70px;
+}
+
+
+.TakeMeBack{
+  position:relative; left: 325px;  top: 38px; z-index:105;
+  width: 150px;
+}
+
+.TakeMeBack:hover  {
+  transform: scale(1.2);
+}
+
+.AreYouSure{
+  position:relative; left: 325px;  top: 35px; z-index:100;
+  width: 250px;
+  margin: 0px;
+}
+
+.deletePrompt{
+  position:relative; left: 485px;  top: -5px; z-index:100;
+  width: 90px;
+}
+
+.deletePrompt:hover  {
+  transform: scale(1.2);
+}

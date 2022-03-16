@@ -1,0 +1,98 @@
+.ingredientsContainer{
+    position:fixed;  z-index: 40; right: 20px;
+    font-family: "futura", Trebuchet MS, Arial, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 20.4px;
+    list-style-type: none;
+    color:rgb(0, 172, 199);  
+    width: 170px;
+}
+
+.IngListCat{
+    position:relative; right: 5px;  top: -20px; z-index: 60; 
+    overflow-x: hidden; width: 20.5vw; height: 20vw; top: -30;
+    overflow-y: scroll; width: 20.5vw; height: 20vw; top: -30;
+    width: 170px;
+    float:left;
+}
+
+.imagePreview{
+    position:relative; top: 10px;  right: 0px; z-index: 90 ;
+    width: 70px;
+}
+
+.uploadPreview{
+
+    position:relative; top: 0px;  right: 0px; z-index: 90 ;
+    width: 70px;
+
+}
+
+
+.listIngredients{
+    position:fixed; top: 320px; right: 45px; z-index: 110;
+    overflow-y: scroll; width: 100px; height: 130px;
+    overflow-x: hidden;
+    width: 150px;
+    height: 150px;
+    color: rgb(233, 123, 76);
+
+}
+
+.iBox {
+    position:fixed; top:215px;   z-index: 20;
+    width:30vh;
+    height:40vh;
+    right: 20px;
+    }
+
+    .selectIngredient:hover {
+        transform: scale(1.2);
+        color:rgb(0, 172, 199);  
+    
+    }
+    
+
+    .EditIngredientHeader{
+
+        font-family: "futura", Trebuchet MS, Arial, sans-serif; font-size: 30px; font-style: normal; font-variant: normal;  line-height: 25.4px;
+        position:fixed; right: 0px;  top:530px; z-index: 60;  width: 300px;
+    }
+
+.editUploadImage{
+    position:relative; top: 10px;  right: 0px; z-index: 90 ;
+    width: 60px;    
+}
+
+    .editIngredientForm{
+        position:fixed; right: 10px;  top:615px; z-index: 60; 
+        overflow-y: scroll; width: 30.5vw; height: 20vw;
+        overflow-x: hidden; width: 35.0vw;
+    }
+
+    .ingredientForm{
+        position:fixed; right: 20px;  top:25px; z-index: 60; 
+  
+
+    }
+
+
+    .viewIngredient{
+        position:absolute; left: -380px;  top: 240px; z-index:90;
+        overflow-y: scroll; width: 30.5vw; height: 35vw; 
+        overflow-x: hidden;  width: 300px;
+        color: rgb(192, 93, 51);
+    }
+
+.ViewIngImage{
+    position:relative; left: 5px;  top: 0px; z-index:90;
+    width: 120px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    padding: 0px;
+}
+
+
+
+    .ViewIngCatList{
+        position:relative; top: 0px;  right: 20px; z-index: 90 ;
+
+    }
