@@ -131,6 +131,7 @@ class ProjectsContainer extends Component {
               handleSubmit(e) {
              //SUBMITHANDLER WHICH CALLS CREATE PROJECT FUNCTION FROM ACTION FOLDER
               createProject(this.state)
+              window.location.reload();
 
               }
 

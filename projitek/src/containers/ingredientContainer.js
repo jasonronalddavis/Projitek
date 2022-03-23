@@ -137,6 +137,7 @@ class IngredientsContainer extends Component {
        //SUBMITHANDLER WHICH CALLS CREATE INGREDIENT FUNCTION FROM ACTION FOLDER
         handleSubmit(e) {
          createIngredient(this.state)
+         window.location.reload();
             }
   
 
